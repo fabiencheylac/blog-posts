@@ -125,7 +125,7 @@ Voici donc à quoi ressembleraient les exemples donnés en introduction en RxJS&
       .then((response) => {
         // On passe à l'Observable le body de
         // la requête
-        observer.next(result)
+        observer.next(response)
       })
       .catch((error) => {
         // Il y a eu une erreur, donc on
